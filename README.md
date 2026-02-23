@@ -104,8 +104,15 @@ and then click "ok":  <br/>
 <img src="https://i.imgur.com/pUbo6MZ.png" height="80%" width="80%" alt="DHCP Steps"/> 
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/jr62EMR.png" height="80%" width="80%" alt="DHCP Steps"/> 
+After waiting for a brief moment, we can check and see if our client has successfully obtained a new dynamic IP address.<br/>
+Head back to the command prompt of the client and type "ipconfig". You should see that our client now has a new IP address<br/>
+from within the scope we created within our DHCP server and that it now has a default gateway:  <br/>
+<br/>
+<img src="https://i.imgur.com/xuinhJz.png" height="80%" width="80%" alt="DHCP Steps"/> 
+<br/>
+<br/>
+This means that our client has successfully requested and received a dynamic IP address from our DHCP server. We are now at<br/>
+the end of this tutorial and I hope you found it to be helpful!
 </p>
 
 <!--
